@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    margin: 0;
+}
+
+.container {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    width: 400px;
+}
+
+h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+#searchInput {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box; 
+    font-size: 16px;
+}
+
+#searchInput:focus {
+    outline: none;
+    border-color: #3498db;
+}
+
+#productList {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+#productList li {
+    background-color: #f9f9f9;
+    padding: 12px;
+    border-bottom: 1px solid #eee;
+    border-radius: 4px;
+    margin-bottom: 5px;
+    color: #444;
+    font-size: 15px;
+}
+
+#productList li:last-child {
+    border-bottom: none;
+}
